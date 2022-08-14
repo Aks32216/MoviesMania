@@ -1,0 +1,63 @@
+/* font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Sriracha', cursive; */
+
+.favour{
+    color: black;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.img_section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img_section>h3{
+    font-size: 120%;
+}
+
+.table_img{
+    object-fit: cover;
+    height: 8rem;
+    width: 14rem;
+    margin-right: 1rem;
+    margin-inline-start: 1rem;
+    object-position: 15% 15%;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto; 
+    width: 100%;
+    margin-bottom: 3rem;
+    font-family: 'Sriracha', cursive; 
+}
+  
+tr {
+    border-bottom: 2px solid black;
+}
+
+.data{
+    text-align: center;
+}
+
+.trash{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.trash_logo{
+    color: #000;
+    
+}
+
+

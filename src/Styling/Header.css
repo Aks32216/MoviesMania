@@ -1,0 +1,47 @@
+/* font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Sriracha', cursive; */
+
+.flex{
+    display: flex;
+    margin-inline-start: 2rem;
+}
+
+.flex>*{
+    margin-right: 2rem;
+    height: 80%;
+}
+
+.logo{
+    height: 6rem;
+    width: 6rem;
+}
+
+a{
+    color: #205375;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+    font-family: 'Philosopher', sans-serif;
+}
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #205375;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

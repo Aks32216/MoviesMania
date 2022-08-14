@@ -1,0 +1,80 @@
+/* font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Sriracha', cursive; */
+
+.movie_list>h1{
+    text-align: center;
+    margin: 0rem auto 1.5rem auto;
+    padding-bottom: 0.5rem;
+    font-size: 250%;
+    color: #205375;
+    width: 93%;
+    border-bottom: 2px solid #205375;
+    font-family: 'Sriracha', cursive;
+}
+
+.movie_list>input{
+    margin-bottom: 2.5rem;
+    margin-right: 5%;
+    padding: 0.5rem;
+    width: 25%;
+    border: 2px solid #205375;
+    font-size: 120%;
+    border-radius: 10px;
+    float: right;
+}
+
+.trending_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.poster_box{
+    text-align: center;
+    width: 20%;
+    height: 25rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    background-color: #061018;
+    position: relative;
+}
+
+.poster_box:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+
+.poster_box>h2{
+    padding: 0.5rem;
+    margin: 0px;
+    font-size: 120%;
+    color: #fff;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.poster_img{
+    height: 85%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.like_dislike>i{
+    color:#fff;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+}

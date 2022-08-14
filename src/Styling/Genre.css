@@ -1,0 +1,19 @@
+/* font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Sriracha', cursive; */
+
+.genre_title{
+    color: #205375;
+    padding: 0.4rem;
+    cursor: pointer;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.selected{
+    background-color: #668ba3;
+    border-radius: 18px;
+    text-decoration: underline;
+}

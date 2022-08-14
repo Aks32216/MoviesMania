@@ -1,0 +1,16 @@
+/* font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Sriracha', cursive; */
+
+.page_not_found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_not_found>*{
+    font-family: 'Aboreto', cursive;
+}

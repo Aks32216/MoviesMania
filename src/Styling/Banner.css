@@ -1,0 +1,31 @@
+/* font-family: 'Aboreto', cursive;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Anek Telugu', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Sriracha', cursive; */
+
+.banner{
+    position: relative;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.banner_img{
+    height: 45vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: 30% 30%;
+}
+
+.banner_text{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0.3rem;
+    left: 0rem;
+    border-radius: 45px;
+    font-family: 'Anek Telugu', sans-serif;
+}
